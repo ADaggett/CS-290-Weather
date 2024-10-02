@@ -1,0 +1,106 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+label{
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+h1{
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+  background-color: #ff8800;
+  color: black;
+}
+
+h3{
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+footer{
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ff8800;
+  color: black;
+}
+
+/* General table styling */
+.weather-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Table caption styling */
+.weather-table caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+  color: #ff8800; /* Example color for the caption */
+}
+
+/* Table header styling */
+.weather-table thead {
+  background-color: #f2f2f2;
+}
+
+.weather-table thead th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Table body styling */
+.weather-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.weather-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.weather-table tbody td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Hover effect for table rows */
+.weather-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive table styling */
+@media (max-width: 600px) {
+  .weather-table {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  .weather-table caption {
+    font-size: 1.2em;
+  }
+
+  .weather-table thead th, 
+  .weather-table tbody td {
+    padding: 8px;
+  }
+}
+
+/*text color black*/ 
+/*button color #08B2E3*/ 
